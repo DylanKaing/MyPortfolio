@@ -14,6 +14,8 @@ jobs:
           node-version: '22'
       - run: npm install
       - run: npm run build
+      - name: Add 404.html for SPA routing
+        run: cp dist/my-port/browser/index.html dist/my-port/browser/404.html
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
