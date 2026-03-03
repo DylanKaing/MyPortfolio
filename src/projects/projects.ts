@@ -36,6 +36,20 @@ export class ProjectsComponent{
         },
         {
             id: 4,
+            title: 'Custom-Malloc',
+            description:'A custom dynamic memory allocator in C that implements `malloc` and `free` from scratch using `sbrk`, featuring first-fit block search, block splitting, and coalescing of free blocks.',
+            tags:['C','Linux'],
+            github: 'https://github.com/DylanKaing/custom-malloc'
+        },
+        {
+            id:5,
+            title: 'Opengl-Model-Viewer',
+            description: 'An interactive 3D shape viewer in C using OpenGL, with procedural geometry generation, mesh file loading, and a hand-built linear algebra library. ',
+            tags:['C','OpenGL','Linux'],
+            github: 'https://github.com/DylanKaing/OpenGL-Model-Viewer'
+        },
+        {
+            id: 6,
             title: 'Note App',
             description: 'In progress 2/19',
             tags: ['Java','SpringBoot','Angular'],
