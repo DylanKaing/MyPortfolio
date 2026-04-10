@@ -16,8 +16,8 @@
         "build": {
           "builder": "@angular/build:application",
             "options": {
-              "baseHref": "/MyPort/",
-              "outputPath": "dist/my-port",
+              "baseHref": "/MyPortfolio/",
+              "outputPath": "dist/my-portfolio",
               "index": "src/index.html",
               "browser": "src/main.ts",
               "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-port:build:production"
+              "buildTarget": "my-portfolio:build:production"
             },
             "development": {
-              "buildTarget": "my-port:build:development"
+              "buildTarget": "my-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
