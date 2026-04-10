@@ -21,6 +21,13 @@ export class ProjectsComponent{
             // demo: ''
         },
         {
+            id: 6,
+            title: 'Note App',
+            description: 'Current passion project wanting figure out how to draw andd overlay text and drawing data. Backend has been completed now finishing frontend',
+            tags: ['Java','SpringBoot','Angular'],
+            github: 'https://github.com/DylanKaing/NoteApp'
+        },
+        {
             id: 2,
             title: 'AWS Attendance Tracker',
             description: 'Simple project to learn AWS. Which consists of a simple QR-based attendance system that allows teachers to generate a session-specific QR code for their class. Students scan the QR code, enter their student ID, and are automatically marked present. Teachers can view attendance reports using the generated session ID, and they receive email notifications each time a student submits attendance.',
@@ -48,13 +55,6 @@ export class ProjectsComponent{
             tags:['C','OpenGL','Linux'],
             github: 'https://github.com/DylanKaing/OpenGL-Model-Viewer'
         },
-        {
-            id: 6,
-            title: 'Note App',
-            description: 'In progress 2/19',
-            tags: ['Java','SpringBoot','Angular'],
-            github: 'https://github.com/DylanKaing/NoteApp'
-        }
         
     ]
     
