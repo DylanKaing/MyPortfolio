@@ -15,7 +15,7 @@ export class ResumeComponent{
     pdfUrl: SafeResourceUrl;
 
     constructor(private sanitizer: DomSanitizer) {
-        this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl('assets/DylanKaing4_26Resume.pdf');
+        this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl('assets/DylanKaing414Resume.pdf');
     }
     
 }
